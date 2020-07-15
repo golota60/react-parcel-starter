@@ -10,13 +10,18 @@
   },
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html -d build"
+    "build": "parcel build src/index.html -d build",
+    "test": "jest",
+    "test:watch": "yarn test --watch"
   },
   "devDependencies": {
+    "@types/jest": "^26.0.4",
     "@types/react": "^16.9.34",
     "@types/react-dom": "^16.9.7",
+    "jest": "^26.1.0",
     "parcel-bundler": "^1.12.4",
     "sass": "^1.26.2",
+    "ts-jest": "^26.1.2",
     "typescript": "^3.8.3"
   }
 }
